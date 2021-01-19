@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <locale.h>
 //Função por parametro que eleva um numero ao cubo dele 
 float cubo(float x){
 	float resultado;
@@ -6,14 +7,13 @@ float cubo(float x){
 	return resultado;
 }
 int main (){
+ setlocale (LC_ALL, "portuguese");
 	float param,retorno;
-	printf("--------CALCULANDO O CUBO DE UM NUMERO--------\n");
+	printf("--------CALCULANDO O CUBO DE UM NÚMERO--------\n");
 	printf("Insira o valor: ");
 	scanf("%f", &param);
 	
 	retorno = cubo(param);
 	
-	printf("Resultado: %2.f\n", retorno);	
-	
-	
+	printf("Resultado: %2.f\n", retorno);		
 }
