@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-//Função por parametro que eleva um numero ao cubo dele 
+//Função por parâmetro que eleva um numero ao cubo dele. 
 float cubo(float x){
 	float resultado;
 	resultado = x*x*x;

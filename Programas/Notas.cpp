@@ -1,9 +1,11 @@
 #include <stdio.h>
-//Algoritmo que diz a media de duas notas de um aluno e diz se ele foi aprovado ou nao
+#include <locale.h>
+//Algoritmo que diz a média de duas notas de um aluno e diz se ele foi aprovado ou não.
 int main(){
+ setlocale (LC_ALL, "portuguese");
 	int nota1,nota2,media; 
 	
-	printf("----Notas vao de 0 a 100----\n");
+	printf("----Notas vão de 0 a 100----\n");
 	printf("Informe a primeira nota: ");
 	scanf("%d", &nota1);
 	printf("Informe a segunda nota: ");
@@ -11,9 +13,9 @@ int main(){
 		
 		media = (nota1 + nota2)/2;
 	
-	printf("\n A media do aluno foi: %d ",media);
+	printf("\n A média do aluno foi: %d = ",media);
 	if (media > 70){
 		printf("Aluno aprovado");
 		}else{
-	printf("aluno reprovado\n");} 
+	printf("Aluno reprovado\n");} 
 }
