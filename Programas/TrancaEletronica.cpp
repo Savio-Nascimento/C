@@ -21,7 +21,7 @@ int fase(int etapa, int alvo){
 	while (numero != alvo)	{
 		printf("\nNúmero incorreto!\n");
 		printf("Tente novamente\n\n");
-		printf("Etapa %d de 4 Digite o núumero: ", etapa);
+		printf("Etapa %d de 4 Digite um núumero: ", etapa);
 		scanf("%d", &numero);
 	}
 	printf("Digite o próximo número... \n\n");
