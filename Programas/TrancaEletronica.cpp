@@ -15,7 +15,7 @@ int main(){
 int fase(int etapa, int alvo){
 	int numero = 0;
 
-	printf("[Etapa %d de 4] Digite o número: ", etapa);
+	printf("[Etapa %d de 4] Digite um número: ", etapa);
 	scanf("%d", &numero);
 
 	while (numero != alvo)	{
