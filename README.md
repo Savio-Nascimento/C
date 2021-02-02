@@ -9,6 +9,8 @@ Pequenos códigos em C, para atividades da faculdade
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Savio-Nascimento/C?style=flat)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Savio-Nascimento/C?style=social)](https://github.com/Savio-Nascimento/C/stargazers)
 
+---
+
 <div align="center">
   
 ### 🚧Projeto em fase de Construção...⏳
