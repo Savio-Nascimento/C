@@ -3,7 +3,7 @@
 Pequenos códigos em C, para atividades da faculdade
  
 ![](https://img.shields.io/badge/license-MIT-green)
-![](https://img.shields.io/badge/languege-Portuguese-yellow)
+![](https://img.shields.io/badge/language-Portuguese-darkcyan)
 ![GitHub forks](https://img.shields.io/github/forks/Savio-Nascimento/C?style=flat) 
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Savio-Nascimento/C?style=flat) 
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Savio-Nascimento/C?style=flat)
